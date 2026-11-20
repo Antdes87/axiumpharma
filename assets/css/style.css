@@ -1,14 +1,14 @@
 :root {
-  --green: #0e7c5b;
-  --green-dark: #0a5c44;
-  --ink: #10312b;
-  --ink-soft: #3c544d;
+  --green: #00aeef;
+  --green-dark: #0092c7;
+  --ink: #0b354e;
+  --ink-soft: #46617a;
   --bg: #ffffff;
-  --bg-soft: #f3f8f6;
-  --line: #dfe9e5;
-  --gold: #c9a227;
+  --bg-soft: #f4f8fa;
+  --line: #dce6ee;
+  --gold: #a8d5ba;
   --radius: 14px;
-  --shadow: 0 10px 30px rgba(16, 49, 43, 0.08);
+  --shadow: 0 10px 30px rgba(11, 53, 78, 0.10);
   --font-head: "Fraunces", "Georgia", serif;
   --font-body: "Inter", -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
@@ -129,18 +129,19 @@ a { color: var(--green-dark); }
 
 .hero {
   background:
-    radial-gradient(900px 400px at 85% -10%, rgba(201, 162, 39, 0.16), transparent 60%),
-    radial-gradient(700px 380px at -10% 110%, rgba(14, 124, 91, 0.22), transparent 60%),
-    linear-gradient(160deg, #0f3a30 0%, #10312b 55%, #0c2721 100%);
-  color: #fff;
+    linear-gradient(rgba(168, 213, 186, 0.88), rgba(168, 213, 186, 0.88)),
+    url("../img/hero.jpg") center/cover no-repeat,
+    #a8d5ba;
+  color: #0b354e;
   padding: 96px 0 110px;
+}
 }
 .hero .eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.18em;
   font-size: 0.8rem;
   font-weight: 600;
-  color: #9fd8c3;
+  color: #0b6a8a;
   margin-bottom: 18px;
 }
 .hero h1 {
@@ -153,7 +154,7 @@ a { color: var(--green-dark); }
 }
 .hero .sub {
   font-size: clamp(1.05rem, 1.8vw, 1.3rem);
-  color: #d7e8e1;
+  color: #33546b;
   max-width: 46ch;
   margin-bottom: 34px;
 }
@@ -296,8 +297,11 @@ a { color: var(--green-dark); }
 .cta-band p { color: #d9efe7; max-width: 52ch; }
 
 .page-hero {
-  background: linear-gradient(160deg, #0f3a30, #10312b);
-  color: #fff;
+  background:
+    linear-gradient(rgba(168, 213, 186, 0.9), rgba(168, 213, 186, 0.9)),
+    url("../img/hero.jpg") center/cover no-repeat,
+    #a8d5ba;
+  color: #0b354e;
   padding: 70px 0 64px;
 }
 .page-hero .eyebrow {
@@ -305,11 +309,11 @@ a { color: var(--green-dark); }
   letter-spacing: 0.18em;
   font-size: 0.8rem;
   font-weight: 600;
-  color: #9fd8c3;
+  color: #0b6a8a;
   margin-bottom: 14px;
 }
 .page-hero h1 { font-family: var(--font-head); font-size: clamp(1.9rem, 4vw, 2.8rem); font-weight: 600; line-height: 1.2; max-width: 22ch; }
-.page-hero p { color: #d7e8e1; margin-top: 12px; max-width: 60ch; }
+.page-hero p { color: #33546b; margin-top: 12px; max-width: 60ch; }
 
 .prose { max-width: 780px; }
 .prose p { margin-bottom: 18px; color: var(--ink-soft); font-size: 1.05rem; }
