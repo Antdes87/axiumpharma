@@ -130,7 +130,7 @@ a { color: var(--green-dark); }
 .hero {
   background:
     linear-gradient(rgba(168, 213, 186, 0.88), rgba(168, 213, 186, 0.88)),
-    url("../img/hero.jpg") center/cover no-repeat,
+    url("../img/fondaxium.png") center/cover no-repeat,
     #a8d5ba;
   color: #0b354e;
   padding: 96px 0 110px;
@@ -299,7 +299,7 @@ a { color: var(--green-dark); }
 .page-hero {
   background:
     linear-gradient(rgba(168, 213, 186, 0.9), rgba(168, 213, 186, 0.9)),
-    url("../img/hero.jpg") center/cover no-repeat,
+    url("../img/fondaxium.png") center/cover no-repeat,
     #a8d5ba;
   color: #0b354e;
   padding: 70px 0 64px;
