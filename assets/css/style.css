@@ -69,7 +69,7 @@ a { color: var(--green-dark); }
   text-decoration: none;
   color: var(--ink);
 }
-.brand img { height: 80px; width: auto; }
+.brand img { height: 100px; width: auto; }
 .brand-name { font-family: var(--font-head); font-size: 1.25rem; font-weight: 700; letter-spacing: 0.04em; }
 .brand-name span { color: var(--green); font-weight: 400; }
 
@@ -395,7 +395,7 @@ a { color: var(--green-dark); }
   margin-bottom: 36px;
 }
 .site-footer .brand-name { color: #fff; }
-.site-footer .brand img { height: 42px; width: auto; }
+.site-footer .brand img { height: 60px; width: auto; }
 .site-footer p { font-size: 0.95rem; color: #a9c6bc; max-width: 40ch; }
 .site-footer h3 {
   color: #fff;
